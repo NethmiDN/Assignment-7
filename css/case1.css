@@ -1,0 +1,58 @@
+body{
+    background-color: white;
+}
+.container{
+    display: flex;
+    gap: 50px;
+    margin-top: 350px;
+    
+}
+.img{
+    width: 100px;
+    height: 100px;
+}
+.home{
+    width: 300px;
+    height: 100px;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    border: 1px solid white;
+  }
+  .btn-1 {
+    padding-top: 80px;
+    margin-right: 10px;
+  }
+  .btn-2 {
+    padding-top: 80px;
+
+    margin-left: 10px;
+  }
+  .start-btn {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(21, 162, 21);
+    border: 1px solid black;
+    border-radius: 50px;
+
+
+  }
+  .stop-btn {
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 50px;
+  }
+  .start-btn:hover {
+    background-color: #4ade51;
+    transform: scale(1.1);
+  }
+  .stop-btn:hover {
+    background-color: #fe8686;
+    transform: scale(1.1);
+  }
+  
